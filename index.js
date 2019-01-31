@@ -151,7 +151,6 @@ class PdfReader extends Component<Props, State> {
       return (
         <View style={styles.container}>
           <WebView
-            useWebKit={true}
             style={styles.webview}
             source={{ uri: data }}
           />
